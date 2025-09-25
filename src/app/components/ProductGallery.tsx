@@ -1,0 +1,52 @@
+"use client";
+import { useState } from "react";
+import Image from "next/image";
+import AsthimeruProd1 from "../assets/Asthimeru-prod1.jpg";
+import AsthimeruProd2 from "../assets/Asthimeru-prod2.jpg";
+import AsthimeruProd3 from "../assets/Asthimeru-prod3.jpg";
+import AsthimeruProd4 from "../assets/Asthimeru-prod4.jpg";
+import AsthimeruProd5 from "../assets/Asthimeru-prod5.jpg";
+
+export const ProductGallery = () => {
+  const [selectedImage, setSelectedImage] = useState(0);
+  const images = [
+    AsthimeruProd1,
+    AsthimeruProd2,
+    AsthimeruProd3,
+    AsthimeruProd4,
+    AsthimeruProd5,
+  ];
+  return (
+    <div className="space-y-4">
+      <div className="aspect-square overflow-hidden rounded-lg border-2 border-herbal-light/20 bg-gradient-nature">
+        <Image
+          src={images[selectedImage].src}
+          width={550}
+          height={550}
+          alt="Asthimeru Herbal Oil"
+          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+        />
+      </div>
+      {/* Thumbnail images */}
+      <div className="grid grid-cols-5 gap-2">
+        {images.map((img, index) => (
+          <button
+            key={index}
+            onClick={() => setSelectedImage(index)}
+            className={`aspect-square overflow-hidden rounded-md border-2 transition-all duration-200 ${
+              selectedImage === index
+                ? "border-herbal-light shadow-lg"
+                : "border-herbal-light/20 hover:border-herbal-light/40"
+            }`}
+          >
+            <Image
+              src={img}
+              alt={"Product view ${index + 1}"}
+              className="w-full h-full object-cover"
+            />
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+};

@@ -1,8 +1,50 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 0 0% 100%;
+  --foreground: 220 8.9% 46.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 8.9% 46.1%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 8.9% 46.1%;
+  --primary: 158 64% 28%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 46 100% 77%;
+  --secondary-foreground: 158 64% 28%;
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 158 64% 52%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 158 64% 52%;
+
+  /* Custom Herbal Theme Colors */
+  --herbal-green: 158 64% 28%;
+  --herbal-light: 158 64% 52%;
+  --herbal-gold: 46 100% 77%;
+  --herbal-cream: 48 100% 96%;
+  --herbal-dark: 158 100% 15%;
+  --foreground: 220 8.9% 46.1%;
+
+  /* Gradients */
+  --gradient-herbal: linear-gradient(
+    135deg,
+    hsl(var(--herbal-green)),
+    hsl(var(--herbal-light))
+  );
+  --gradient-gold: linear-gradient(
+    135deg,
+    hsl(var(--herbal-gold)),
+    hsl(46 100% 85%)
+  );
+  --gradient-nature: linear-gradient(
+    180deg,
+    hsl(var(--herbal-cream)),
+    hsl(0 0% 100%)
+  );
 }
 
 @theme inline {
@@ -23,4 +65,56 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Herbal Theme Utility Classes */
+.bg-herbal-green {
+  background-color: hsl(var(--herbal-green));
+}
+.bg-herbal-light {
+  background-color: hsl(var(--herbal-light));
+}
+.bg-herbal-gold {
+  background-color: hsl(var(--herbal-gold));
+}
+.bg-herbal-cream {
+  background-color: hsl(var(--herbal-cream));
+}
+.bg-herbal-dark {
+  background-color: hsl(var(--herbal-dark));
+}
+
+.text-herbal-light {
+  color: hsl(var(--herbal-light));
+}
+.text-herbal-gold {
+  color: hsl(var(--herbal-gold));
+}
+.text-herbal-cream {
+  color: hsl(var(--herbal-cream));
+}
+.text-herbal-dark {
+  color: hsl(var(--herbal-dark));
+}
+
+.bg-gradient-herbal {
+  background-image: var(--gradient-herbal);
+}
+.bg-gradient-gold {
+  background-image: var(--gradient-gold);
+}
+.bg-gradient-nature {
+  background-image: var(--gradient-nature);
+}
+.border-herbal-light\/20 {
+  border-color: hsl(var(--herbal-light) / 0.2);
+}
+.border-herbal-light {
+  border-color: hsl(var(--herbal-light));
+}
+.text-foreground {
+  color: hsl(var(--foreground));
+}
+.text-muted-foreground {
+  color: hsl(var(--muted-foreground));
 }
