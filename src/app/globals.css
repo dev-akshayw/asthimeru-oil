@@ -13,12 +13,14 @@
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
+  /* --muted-foreground: oklch(0.556 0 0); */
+  --muted-foreground: 215.4 16.3% 46.9%;
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: 210 40% 98%;
-  --border: oklch(0.922 0 0);
+  /* --border: oklch(0.922 0 0); */
+  --border: 214.3 31.8% 91.4%;
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
 
@@ -47,7 +49,9 @@
   );
   --radius: 0.625rem;
   --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  /* --foreground: oklch(0.145 0 0); */
+  /* --foreground: 0 0% 95%; */
+  --foreground: 220 8.9% 46.1%;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -109,6 +113,9 @@
 .bg-herbal-green {
   background-color: hsl(var(--herbal-green));
 }
+.bg-herbal-green10 {
+  background-color: hsl(var(--herbal-green) / 0.1);
+}
 .bg-herbal-light {
   background-color: hsl(var(--herbal-light));
 }
@@ -150,6 +157,9 @@
 .border-herbal-light {
   border-color: hsl(var(--herbal-light));
 }
+.border-herbal-green20 {
+  border-color: hsl(var(--herbal-green) / 0.2);
+}
 .text-foreground {
   color: hsl(var(--foreground));
 }
@@ -159,8 +169,13 @@
 .ring-offset-background {
   --tw-ring-offset-color: hsl(var(--background));
 }
-
-.dark {
+.border-herbal-cream {
+  border-color: hsl(var(--herbal-cream));
+}
+.text-herbal-green {
+  color: hsl(var(--herbal-green));
+}
+/* .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
@@ -192,7 +207,7 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
-}
+} */
 
 /*
 @layer base {
@@ -206,4 +221,7 @@
 */
 .data-\[state\=active\]\:bg-herbal-green[data-state="active"] {
   background-color: hsl(var(--herbal-green));
+}
+* {
+  border-color: hsl(var(--border));
 }
