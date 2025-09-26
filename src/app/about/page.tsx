@@ -12,7 +12,7 @@ const About = () => {
           <h1 className="text-5xl font-bold mb-6">About Asthimeru</h1>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
             Rooted in ancient Ayurvedic wisdom, Asthimeru brings you the power
-            of nature's healing through our premium herbal pain relief oil.
+            of nature&#39;s healing through our premium herbal pain relief oil.
             Experience the real extract of herbs.
           </p>
         </div>
@@ -104,7 +104,7 @@ const About = () => {
                 Our Vision
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                To become India's most trusted brand for herbal pain relief,
+                To become India&#39;s most trusted brand for herbal pain relief,
                 making Ayurvedic healing accessible to everyone and establishing
                 a new standard for natural wellness products in the modern
                 world.
