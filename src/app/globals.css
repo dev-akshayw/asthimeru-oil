@@ -222,6 +222,3 @@
 .data-\[state\=active\]\:bg-herbal-green[data-state="active"] {
   background-color: hsl(var(--herbal-green));
 }
-* {
-  border-color: hsl(var(--border));
-}

@@ -8,6 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "herbal-green": "hsl(var(--herbal-green))",
+        "herbal-light": "hsl(var(--herbal-light))",
+        "herbal-gold": "hsl(var(--herbal-gold))",
+        "herbal-cream": "hsl(var(--herbal-cream))",
+        "herbal-dark": "hsl(var(--herbal-dark))",
         herbal: {
           green: "hsl(var(--herbal-green))",
           light: "hsl(var(--herbal-light))",
