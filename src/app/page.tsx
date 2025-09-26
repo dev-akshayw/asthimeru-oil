@@ -3,6 +3,11 @@ import herbalBanner from "./assets/herbal-banner.jpg";
 import Image from "next/image";
 import { ProductGallery } from "./components/ProductGallery";
 import { ProductInfo } from "./components/ProductInfo";
+import { ProductTabs } from "./components/ProductTabs";
+import { BenefitsSection } from "./components/BenefitsSection";
+import { UsageStepsSection } from "./components/UsageStepsSection";
+import { TrustBadges } from "./components/TrustBadges";
+import { Footer } from "./components/Footer";
 
 export default function Home() {
   return (
@@ -22,7 +27,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-herbal-green/80 to-transparent"></div>
       </section>
 
-      <main className="max-w-7xl mx-auto px-6 py-12">
+      <main className="max-w-[1400px] mx-auto px-4 md:px-6 py-12">
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div
             role="img"
@@ -34,9 +39,28 @@ export default function Home() {
             <ProductInfo />
           </article>
         </section>
-
-        <section className="product-details" role="tabpanel"></section>
       </main>
+
+      <section
+        className="product-details max-w-[1400px] mx-auto px-4 md:px-6 md:pt-12"
+        role="tabpanel"
+      >
+        <ProductTabs />
+      </section>
+
+      <section className="benefits-section" aria-labelledby="benefits-heading">
+        <BenefitsSection />
+      </section>
+
+      <section className="usage-section" aria-labelledby="usage-heading">
+        <UsageStepsSection />
+      </section>
+
+      <section className="trust-section" aria-labelledby="trust-heading">
+        <TrustBadges />
+      </section>
+
+      <Footer />
     </>
   );
 }

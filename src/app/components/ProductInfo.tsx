@@ -1,10 +1,8 @@
 "use client";
 import { Star, Flame, Eye } from "lucide-react";
-import { useState } from "react";
 import Link from "next/link";
 
 export const ProductInfo = () => {
-  const [quantity, setQuantity] = useState(1);
   return (
     <div className="space-y-6">
       {/* Product title and rating */}
@@ -50,8 +48,8 @@ export const ProductInfo = () => {
 
       {/* Product description */}
       <p className="text-muted-foreground leading-relaxed">
-        Asthimeru herbal oil, India's premium pain relief oil, harnesses ancient
-        Ayurvedic wisdom to heal muscle and joint pains. It reduces
+        Asthimeru herbal oil, India&#39;s premium pain relief oil, harnesses
+        ancient Ayurvedic wisdom to heal muscle and joint pains. It reduces
         inflammation, restores mobility, and supports natural healing. Ideal for
         arthritis, rheumatism, joint discomfort, muscle strains, and tissue
         damage, Asthimeru offers effective relief using pure herbal ingredients.
