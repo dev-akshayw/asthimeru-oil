@@ -122,7 +122,7 @@ export const UsageStepsSection = () => {
             <button className="bg-white text-herbal-green px-8 py-3 rounded-lg font-semibold hover:bg-herbal-cream transition-colors">
               Order Now
             </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-herbal-green transition-colors">
+            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#1a7554] transition-colors">
               Learn More
             </button>
           </div>

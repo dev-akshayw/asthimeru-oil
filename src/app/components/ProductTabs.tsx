@@ -11,7 +11,8 @@ export const ProductTabs = () => {
   return (
     <div className="">
       <Tabs defaultValue="description" className="w-full">
-        <TabsList className="flex w-full overflow-x-auto sm:overflow-x-visible bg-herbal-cream whitespace-nowrap rounded-md  scroll-px-2 pl-2">
+        {/* <TabsList className="flex w-full overflow-x-auto sm:overflow-x-visible bg-herbal-cream whitespace-nowrap rounded-md  scroll-px-2"> */}
+        <TabsList className="flex overflow-x-auto bg-herbal-cream whitespace-nowrap rounded-md scrollbar-hide">
           <TabsTrigger
             value="description"
             className="cursor-pointer min-w-max px-4 py-2 data-[state=active]:bg-herbal-green data-[state=active]:!text-white"
@@ -82,7 +83,7 @@ export const ProductTabs = () => {
                     <div className="bg-herbal-green text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
                       {i + 1}
                     </div>
-                    <div>
+                    <div className="flex-1">
                       <h4 className="font-semibold text-herbal-dark">
                         {["First", "Second", "Third"][i]} Step
                       </h4>
@@ -101,7 +102,7 @@ export const ProductTabs = () => {
                     <div className="bg-herbal-green text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
                       {i + 4}
                     </div>
-                    <div>
+                    <div className="flex-1">
                       <h4 className="font-semibold text-herbal-dark">
                         {["Fourth", "Fifth", "Sixth"][i]} Step
                       </h4>
