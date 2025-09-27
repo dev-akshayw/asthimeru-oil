@@ -25,7 +25,7 @@ export default function Header() {
             <div className="flex items-center space-x-2">
               <span className="text-yellow-300 text-2xl">🌿</span>
               <div>
-                <h1 className="font-bold text-lg">Asthimeru</h1>
+                <h1 className="font-bold text-lg">Asthiamrit</h1>
                 <p className="text-sm">Herbal Oil</p>
               </div>
             </div>
