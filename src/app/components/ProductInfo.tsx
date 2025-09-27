@@ -8,7 +8,7 @@ export const ProductInfo = () => {
       {/* Product title and rating */}
       <div>
         <h1 className="text-3xl font-bold text-foreground mb-2">
-          Asthimeru Herbal Oil - experience the real extract of herbs
+          Asthiamrit ayurvedic treatment  – Pain Relief Oil & Capsules for Total Joint Care
         </h1>
         <p className="text-muted-foreground mb-3">
           Relieves Knee Pain | Shoulder Pain And Back Pain | Arthritis | Muscle
@@ -48,12 +48,14 @@ export const ProductInfo = () => {
 
       {/* Product description */}
       <p className="text-muted-foreground leading-relaxed">
-        Asthimeru herbal oil, India&#39;s premium pain relief oil, harnesses
-        ancient Ayurvedic wisdom to heal muscle and joint pains. It reduces
-        inflammation, restores mobility, and supports natural healing. Ideal for
-        arthritis, rheumatism, joint discomfort, muscle strains, and tissue
-        damage, Asthimeru offers effective relief using pure herbal ingredients.
+        Experience long-lasting relief with our two month Dual-Action Ayurvedic Treatment. A powerful combination of therapeutic oil and healing capsules.
       </p>
+      <ul className="list-disc pl-5 text-muted-foreground">
+        <li>100% Natural Ingredients</li>
+        <li>Doctor-Formulated</li>
+        <li>GMP Certified</li>
+        <li>No Side Effects</li>
+      </ul>
 
       {/* Social proof indicators */}
       <div className="space-y-3">

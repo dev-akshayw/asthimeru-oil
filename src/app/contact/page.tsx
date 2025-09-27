@@ -15,7 +15,7 @@ const Contact = () => {
             Contact Us
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Get in touch with us for any queries about Asthimeru Herbal Oil.
+            Get in touch with us for any queries about Asthiamrit Herbal Oil.
             We&#39;re here to help you on your journey to pain-free living.
           </p>
         </div>
@@ -144,7 +144,7 @@ const Contact = () => {
                     <h3 className="font-semibold text-herbal-dark">
                       Email Address
                     </h3>
-                    <p className="text-muted-foreground">info@asthimeru.com</p>
+                    <p className="text-muted-foreground">info@asthiamrit.com</p>
                   </div>
                 </div>
 
@@ -171,7 +171,7 @@ const Contact = () => {
             <div className="bg-herbal-green text-white rounded-[8px]">
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-4">
-                  Why Choose Asthimeru?
+                  Why Choose Asthiamrit?
                 </h3>
                 <ul className="space-y-2">
                   <li>✓ 100% Natural Ayurvedic Ingredients</li>
