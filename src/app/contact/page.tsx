@@ -16,7 +16,7 @@ const Contact = () => {
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Get in touch with us for any queries about Asthimeru Herbal Oil.
-            We're here to help you on your journey to pain-free living.
+            We&#39;re here to help you on your journey to pain-free living.
           </p>
         </div>
 
