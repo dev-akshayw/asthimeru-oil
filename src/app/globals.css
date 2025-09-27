@@ -222,3 +222,8 @@
 .data-\[state\=active\]\:bg-herbal-green[data-state="active"] {
   background-color: hsl(var(--herbal-green));
 }
+@media (max-width: 767px) {
+  .prod-tab-just {
+    justify-content: unset !important;
+  }
+}

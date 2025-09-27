@@ -11,8 +11,7 @@ export const ProductTabs = () => {
   return (
     <div className="">
       <Tabs defaultValue="description" className="w-full">
-        {/* <TabsList className="flex w-full overflow-x-auto sm:overflow-x-visible bg-herbal-cream whitespace-nowrap rounded-md  scroll-px-2"> */}
-        <TabsList className="flex overflow-x-auto bg-herbal-cream whitespace-nowrap rounded-md scrollbar-hide">
+        <TabsList className="flex prod-tab-just w-full overflow-x-auto sm:overflow-x-visible bg-herbal-cream whitespace-nowrap rounded-md  scroll-px-2">
           <TabsTrigger
             value="description"
             className="cursor-pointer min-w-max px-4 py-2 data-[state=active]:bg-herbal-green data-[state=active]:!text-white"
