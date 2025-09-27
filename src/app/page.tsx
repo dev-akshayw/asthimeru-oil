@@ -8,6 +8,7 @@ import { BenefitsSection } from "./components/BenefitsSection";
 import { UsageStepsSection } from "./components/UsageStepsSection";
 import { TrustBadges } from "./components/TrustBadges";
 import { Footer } from "./components/Footer";
+// import { FaqSection } from "./components/FaqSection";
 
 export default function Home() {
   return (
