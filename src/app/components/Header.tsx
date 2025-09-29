@@ -2,7 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Menu, X } from "lucide-react";
+import AsthiamritLogo from "@/app/assets/asthiamrit_logo.png";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,18 +25,21 @@ export default function Header() {
           <div className="max-w-[1400px] mx-auto flex justify-between items-center px-4 md:px-6 py-4">
             {/* Logo & Tagline */}
             <div className="flex items-center space-x-2">
-              <span className="text-yellow-300 text-2xl">🌿</span>
-              <div>
-                <h1 className="font-bold text-lg">Asthiamrit</h1>
-                <p className="text-sm">Herbal Oil</p>
-              </div>
+              <Image
+                src={AsthiamritLogo}
+                alt="Asthiamrit Logo"
+                width={120}
+                height={120}
+                className="rounded-full bg-transparent p-1"
+                priority
+              />
             </div>
 
             {/* Contact + Hamburger */}
             <div className="flex items-center space-x-4">
               <div className="hidden md:flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span className="font-medium">+91 940 7468 048</span>
+                <span className="font-medium">+91 975 2075 917</span>
               </div>
 
               {/* Hamburger Icon (Mobile) */}
@@ -78,7 +83,7 @@ export default function Header() {
               href="/buy"
               className="bg-gradient-herbal hover:opacity-90 font-semibold text-white px-5 py-2 rounded-md transition"
             >
-              BUY ASTHIMERU
+              BUY ASTHIAMRIT
             </Link>
           </div>
         </nav>
@@ -91,7 +96,7 @@ export default function Header() {
         >
           <div className="flex items-center space-x-2 border-b pb-4">
             <Phone className="w-4 h-4 text-gray-700" />
-            <span className="font-medium text-gray-700">+91 940 7468 048</span>
+            <span className="font-medium text-gray-700">+91 975 2075 917</span>
           </div>
 
           <ul className="flex flex-col space-y-4 text-gray-700 font-medium mt-4">
@@ -139,7 +144,7 @@ export default function Header() {
             className="block w-full text-center text-white px-5 py-3 rounded-md bg-gradient-herbal hover:opacity-90 font-semibold transition mt-4"
             onClick={() => setMenuOpen(false)}
           >
-            BUY ASTHIMERU
+            BUY ASTHIAMRIT
           </Link>
         </div>
       </header>

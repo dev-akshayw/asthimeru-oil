@@ -61,11 +61,11 @@ export const UsageStepsSection = () => {
       <div className=" max-w-[1400px] mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-herbal-dark mb-4">
-            Six Easy Steps to Use Asthimeru Oil
+            Six Easy Steps to Use Asthiamrit Oil
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Follow these simple steps to get maximum benefits from your
-            Asthimeru Herbal Oil. Consistent application is key to achieving
+            Asthiamrit Herbal Oil. Consistent application is key to achieving
             optimal results.
           </p>
         </div>

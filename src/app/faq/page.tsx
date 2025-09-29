@@ -10,39 +10,39 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "What is Asthimeru Herbal Oil?",
+      question: "What is Asthiamrit Herbal Oil?",
       answer:
-        "Asthimeru Herbal Oil is India&#39;s premium pain relief oil prepared using ancient Ayurvedic medicinal science. It contains 20+ pure herbs that are 100% natural and authentic, designed to provide fast and effective relief from muscle and joint pain.",
+        "Asthiamrit Herbal Oil is India&#39;s premium pain relief oil prepared using ancient Ayurvedic medicinal science. It contains 20+ pure herbs that are 100% natural and authentic, designed to provide fast and effective relief from muscle and joint pain.",
     },
     {
-      question: "How does Asthimeru Oil work?",
+      question: "How does Asthiamrit Oil work?",
       answer:
         "Our herbal oil works by penetrating deep into the skin to reduce inflammation, relieve pain, and restore mobility. The blend of natural herbs provides a gentle warm sensation that soothes muscles and supports the body&#39;s natural healing process.",
     },
     {
-      question: "What types of pain can Asthimeru Oil treat?",
+      question: "What types of pain can Asthiamrit Oil treat?",
       answer:
-        "Asthimeru Oil is effective for various types of pain including back pain, knee pain, shoulder pain, arthritis, rheumatism, joint discomfort, muscle strains, ligament injuries, and damaged or torn tissue.",
+        "Asthiamrit Oil is effective for various types of pain including back pain, knee pain, shoulder pain, arthritis, rheumatism, joint discomfort, muscle strains, ligament injuries, and damaged or torn tissue.",
     },
     {
-      question: "How should I use Asthimeru Oil?",
+      question: "How should I use Asthiamrit Oil?",
       answer:
         "Clean the affected area, take about 3ml of oil on your palm, apply to the affected joints, massage thoroughly with gentle circular motions, allow the oil to absorb completely, then wipe with a wet cloth and apply coconut oil for best results.",
     },
     {
       question: "How often should I apply the oil?",
       answer:
-        "For best results, apply Asthimeru Oil 1-2 times daily. Consistency is key to experiencing the full benefits of the herbal ingredients.",
+        "For best results, apply Asthiamrit Oil 1-2 times daily. Consistency is key to experiencing the full benefits of the herbal ingredients.",
     },
     {
       question: "Are there any side effects?",
       answer:
-        "Asthimeru Oil is made from 100% natural herbs and is generally safe for external use. However, if you have sensitive skin or allergies, we recommend doing a patch test before full application. Discontinue use if any irritation occurs.",
+        "Asthiamrit Oil is made from 100% natural herbs and is generally safe for external use. However, if you have sensitive skin or allergies, we recommend doing a patch test before full application. Discontinue use if any irritation occurs.",
     },
     {
-      question: "Is Asthimeru Oil certified?",
+      question: "Is Asthiamrit Oil certified?",
       answer:
-        "Yes, Asthimeru Oil is certified by the Ministry of AYUSH, ensuring its authenticity and quality as per Ayurvedic standards.",
+        "Yes, Asthiamrit Oil is certified by the Ministry of AYUSH, ensuring its authenticity and quality as per Ayurvedic standards.",
     },
     {
       question: "How long does it take to see results?",
@@ -50,14 +50,14 @@ const FAQ = () => {
         "Many users report feeling relief within the first few applications. However, for chronic conditions, consistent use over 2-4 weeks typically shows significant improvement.",
     },
     {
-      question: "Can children use Asthimeru Oil?",
+      question: "Can children use Asthiamrit Oil?",
       answer:
         "While the oil is made from natural ingredients, we recommend consulting with a healthcare provider before using it on children under 12 years of age.",
     },
     {
-      question: "What makes Asthimeru different from other pain relief oils?",
+      question: "What makes Asthiamrit different from other pain relief oils?",
       answer:
-        "Asthimeru stands out because it contains live herbs making it fast-acting, has no strong overpowering odor, is made after extensive research on Ayurvedic principles, and provides a gentle warm sensation that naturally soothes muscles.",
+        "Asthiamrit stands out because it contains live herbs making it fast-acting, has no strong overpowering odor, is made after extensive research on Ayurvedic principles, and provides a gentle warm sensation that naturally soothes muscles.",
     },
     {
       question: "Do you offer a money-back guarantee?",
@@ -67,7 +67,7 @@ const FAQ = () => {
     {
       question: "How should I store the oil?",
       answer:
-        "Store Asthimeru Oil in a cool, dry place away from direct sunlight. Keep the bottle tightly closed and out of reach of children.",
+        "Store Asthiamrit Oil in a cool, dry place away from direct sunlight. Keep the bottle tightly closed and out of reach of children.",
     },
   ];
 
@@ -80,7 +80,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Find answers to common questions about Asthimeru Herbal Oil and how
+            Find answers to common questions about Asthiamrit Herbal Oil and how
             it can help you achieve pain-free living.
           </p>
         </div>

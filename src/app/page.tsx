@@ -18,7 +18,7 @@ export default function Home() {
       <section className="relative h-32 overflow-hidden" role="banner">
         <Image
           src={herbalBanner.src}
-          alt="Premium Ayurvedic herbal ingredients used in Asthimeru pain relief oil"
+          alt="Premium Ayurvedic herbal ingredients used in Asthiamrit pain relief oil"
           className="w-full h-full object-cover"
           loading="eager"
           width="1920"
@@ -31,7 +31,7 @@ export default function Home() {
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div
             role="img"
-            aria-label="Product gallery showing Asthimeru herbal oil bottle"
+            aria-label="Product gallery showing Asthiamrit herbal oil bottle"
           >
             <ProductGallery />
           </div>

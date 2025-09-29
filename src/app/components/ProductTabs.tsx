@@ -28,7 +28,7 @@ export const ProductTabs = () => {
             value="benefits"
             className="cursor-pointer min-w-max px-4 py-2 data-[state=active]:bg-herbal-green data-[state=active]:!text-white"
           >
-            Why Choose Asthimeru
+            Why Choose Asthiamrit
           </TabsTrigger>
           <TabsTrigger
             value="reviews"
@@ -43,7 +43,7 @@ export const ProductTabs = () => {
           <div className="prose max-w-none">
             <p className="text-muted-foreground leading-relaxed">
               Don&#39;t let aches and pains limit your active lifestyle.
-              Asthimeru herbal oil is India&#39;s premium pain relief oil
+              Asthiamrit herbal oil is India&#39;s premium pain relief oil
               prepared using ancient Ayurvedic medicinal science. The miraculous
               healing properties of this oil blend effectively heal all kinds of
               muscle and joint pains, relieve pain, reduce inflammation, restore
@@ -52,7 +52,7 @@ export const ProductTabs = () => {
             <p className="text-muted-foreground leading-relaxed mt-4">
               It&#39;s a miracle oil for all arthritic and rheumatic pain, joint
               discomfort, muscle and ligament strains, and damaged or torn
-              tissue. Asthimeru Pain Relief oil is crafted from pure herbal
+              tissue. Asthiamrit Pain Relief oil is crafted from pure herbal
               ingredients, making it a trusted solution for all pain-related
               problems.
             </p>

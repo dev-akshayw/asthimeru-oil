@@ -10,7 +10,7 @@ export const BenefitsSection = () => {
       <div className=" max-w-[1400px] mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-herbal-dark mb-4">
-            Transform Your Life with Asthimeru
+            Transform Your Life with Asthiamrit
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             See the real difference our herbal oil makes in people&#39;s lives.
@@ -67,7 +67,7 @@ export const BenefitsSection = () => {
                   src={benefitsBackPain.src}
                   width={650}
                   height={470}
-                  alt="Before and after back pain relief with Asthimeru oil"
+                  alt="Before and after back pain relief with Asthiamrit oil"
                   className="w-full h-auto"
                 />
               </div>
@@ -82,7 +82,7 @@ export const BenefitsSection = () => {
                   src={benefitsKneePain.src}
                   width={650}
                   height={470}
-                  alt="Before and after knee pain relief with Asthimeru oil"
+                  alt="Before and after knee pain relief with Asthiamrit oil"
                   className="w-full h-auto"
                 />
               </div>
@@ -173,7 +173,7 @@ export const BenefitsSection = () => {
                   width={650}
                   height={470}
                   src={benefitsShoulderPain}
-                  alt="Before and after shoulder pain relief with Asthimeru oil"
+                  alt="Before and after shoulder pain relief with Asthiamrit oil"
                   className="w-full h-auto"
                 />
               </div>
