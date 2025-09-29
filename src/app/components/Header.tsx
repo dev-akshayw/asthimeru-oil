@@ -16,7 +16,7 @@ export default function Header() {
         className="px-4 bg-gradient-herbal text-white text-center py-2 text-sm font-medium"
         role="banner"
       >
-        FOR EXTRA DEALS AND DISCOUNTS CALL US NOW
+        GET A FREE EXPERT CONSULTATION
       </div>
 
       <header className="w-full shadow">
