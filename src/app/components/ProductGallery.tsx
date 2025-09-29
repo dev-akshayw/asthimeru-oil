@@ -23,7 +23,7 @@ export const ProductGallery = () => {
           src={images[selectedImage].src}
           width={550}
           height={550}
-          alt="Asthimeru Herbal Oil"
+          alt="Asthiamrit Herbal Oil"
           className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
         />
       </div>

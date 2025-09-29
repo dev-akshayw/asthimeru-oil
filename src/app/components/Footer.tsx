@@ -11,7 +11,7 @@ export const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold text-herbal-gold mb-4">
-              Asthimeru
+              Asthiamrit
             </h3>
             <p className="text-white/80 md:mb-6 leading-relaxed lg:pr-16 xl:pr-24">
               Experience the power of Ayurveda with India&#39;s premium pain
@@ -92,10 +92,10 @@ export const Footer = () => {
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-herbal-gold flex-shrink-0" />
                   <a
-                    href="mailto:info@asthimeru.com"
+                    href="mailto:info@asthiamrit.com"
                     className="text-white/80 hover:text-herbal-gold transition-colors"
                   >
-                    info@asthimeru.com
+                    info@asthiamrit.com
                   </a>
                 </div>
               </div>
@@ -107,7 +107,7 @@ export const Footer = () => {
         <div className="border-t border-white/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-white/60 mb-4 md:mb-0">
-              <p>&copy; 2025 Asthimeru. All rights reserved.</p>
+              <p>&copy; 2025 Asthiamrit. All rights reserved.</p>
             </div>
             <div className="flex space-x-6 text-sm">
               <Link

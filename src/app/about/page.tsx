@@ -9,9 +9,9 @@ const About = () => {
       {/* Hero Section */}
       <div className="bg-gradient-herbal text-white py-16">
         <div className="max-w-[1400px] mx-auto px-4 md:px-6 text-center">
-          <h1 className="text-5xl font-bold mb-6">About Asthimeru</h1>
+          <h1 className="text-5xl font-bold mb-6">About Asthiamrit</h1>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
-            Rooted in ancient Ayurvedic wisdom, Asthimeru brings you the power
+            Rooted in ancient Ayurvedic wisdom, Asthiamrit brings you the power
             of nature&#39;s healing through our premium herbal pain relief oil.
             Experience the real extract of herbs.
           </p>
@@ -27,7 +27,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Asthimeru was born from a deep understanding of the healing
+                Asthiamrit was born from a deep understanding of the healing
                 power of Ayurveda and a commitment to bringing natural pain
                 relief to people suffering from joint and muscle discomfort. Our
                 journey began with extensive research into ancient Ayurvedic
@@ -35,13 +35,13 @@ const About = () => {
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 After years of careful formulation and testing, we developed
-                Asthimeru Herbal Oil - a unique blend of 20+ pure herbs that
+                Asthiamrit Herbal Oil - a unique blend of 20+ pure herbs that
                 work synergistically to provide fast, effective, and natural
                 pain relief. Our oil is crafted using traditional methods while
                 meeting modern quality standards.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Today, thousands of people across India trust Asthimeru for
+                Today, thousands of people across India trust Asthiamrit for
                 their pain relief needs, and we continue our mission to help
                 people live pain-free, active lives through the power of nature.
               </p>

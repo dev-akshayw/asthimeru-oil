@@ -27,22 +27,14 @@ export const ProductInfo = () => {
         </div>
       </div>
 
-      {/* Product variant */}
-      <div>
-        <p className="text-sm text-muted-foreground mb-2">QUANTITY:</p>
-        <div className="bg-herbal-cream text-herbal-dark font-medium w-fit py-[2px] px-2 rounded-full width-fit">
-          120ML (2) + 2 MONTHS CAPSULE FREE
-        </div>
-      </div>
-
       {/* Pricing */}
       <div className="flex items-center gap-4">
         <span className="text-sm text-muted-foreground line-through">
-          ₹3,499.00
+          ₹3,999.00
         </span>
         <span className="text-3xl font-bold text-herbal-green">₹2,499.00</span>
         <div className="bg-gradient-gold text-herbal-dark font-bold py-[2px] px-2 rounded-full w-fit">
-          Flat 28% OFF
+          Flat 37% OFF
         </div>
       </div>
 
