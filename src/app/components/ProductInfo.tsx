@@ -1,6 +1,9 @@
 "use client";
 import { Star, Flame, Eye } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
+import picture1 from "../assets/Picture1.png";
+import benefitsBackPain from "../assets/benefits-back-pain.jpg";
 
 export const ProductInfo = () => {
   return (
@@ -8,7 +11,8 @@ export const ProductInfo = () => {
       {/* Product title and rating */}
       <div>
         <h1 className="text-3xl font-bold text-foreground mb-2">
-          Asthiamrit ayurvedic treatment  – Pain Relief Oil & Capsules for Total Joint Care
+          Asthiamrit ayurvedic treatment – Pain Relief Oil & Capsules for Total
+          Joint Care
         </h1>
         <p className="text-muted-foreground mb-3">
           Relieves Knee Pain | Shoulder Pain And Back Pain | Arthritis | Muscle
@@ -27,20 +31,29 @@ export const ProductInfo = () => {
         </div>
       </div>
 
+      {/* Product variant */}
+      <div>
+        <div className="bg-herbal-cream text-herbal-dark font-medium w-fit py-[2px] px-2 rounded-full width-fit">
+          120ML (2) + 2 MONTHS CAPSULE FREE
+        </div>
+      </div>
+
       {/* Pricing */}
       <div className="flex items-center gap-4">
         <span className="text-sm text-muted-foreground line-through">
-          ₹3,999.00
+          ₹3,499.00
         </span>
         <span className="text-3xl font-bold text-herbal-green">₹2,499.00</span>
         <div className="bg-gradient-gold text-herbal-dark font-bold py-[2px] px-2 rounded-full w-fit">
-          Flat 37% OFF
+          Flat 28% OFF
         </div>
       </div>
 
       {/* Product description */}
       <p className="text-muted-foreground leading-relaxed">
-        Experience long-lasting relief with our two month Dual-Action Ayurvedic Treatment. A powerful combination of therapeutic oil and healing capsules.
+        Experience long-lasting relief with our two month Dual-Action Ayurvedic
+        Treatment. A powerful combination of therapeutic oil and healing
+        capsules.
       </p>
       <ul className="list-disc pl-5 text-muted-foreground">
         <li>100% Natural Ingredients</li>
@@ -80,6 +93,16 @@ export const ProductInfo = () => {
         <p className="text-herbal-dark font-medium text-center">
           🚚 FREE SHIPPING, DELIVERY WITHIN 5-6 DAYS
         </p>
+      </div>
+      <div className="grid grid-cols-4 gap-4">
+        <div>
+          <Image
+            src={picture1.src}
+            width={75}
+            height={75}
+            alt="GMP Certified"
+          />
+        </div>
       </div>
     </div>
   );

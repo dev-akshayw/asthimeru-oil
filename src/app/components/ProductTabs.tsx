@@ -42,31 +42,28 @@ export const ProductTabs = () => {
         <TabsContent value="description" className="mt-6 space-y-4">
           <div className="prose max-w-none">
             <p className="text-muted-foreground leading-relaxed">
-              Don&#39;t let aches and pains limit your active lifestyle.
-              Asthiamrit herbal oil is India&#39;s premium pain relief oil
-              prepared using ancient Ayurvedic medicinal science. The miraculous
-              healing properties of this oil blend effectively heal all kinds of
-              muscle and joint pains, relieve pain, reduce inflammation, restore
-              mobility, and help the body heal naturally.
+              Asthiamrit – Ayurvedic Oil & Capsules for Complete Joint Care
+              Experience the power of ancient Ayurvedic wisdom with Asthiamrit,
+              a premium herbal formulation designed to relieve pain, reduce
+              inflammation, and strengthen bones and joints.
             </p>
             <p className="text-muted-foreground leading-relaxed mt-4">
-              It&#39;s a miracle oil for all arthritic and rheumatic pain, joint
-              discomfort, muscle and ligament strains, and damaged or torn
-              tissue. Asthiamrit Pain Relief oil is crafted from pure herbal
-              ingredients, making it a trusted solution for all pain-related
-              problems.
+              Our Ayurvedic oil penetrates deep into muscles and joints,
+              improving blood circulation, easing stiffness, and promoting
+              faster recovery. The capsules work from within to nourish
+              cartilage, support bone health, and maintain long-term joint
+              flexibility.
             </p>
-            <ul className="list-disc list-inside space-y-2 mt-4 text-muted-foreground">
-              <li>Provides quick relief from muscle and joint pain</li>
-              <li>Reduces inflammation and restores mobility</li>
-              <li>Supports natural healing using Ayurvedic ingredients</li>
-              <li>Effective for arthritis, rheumatism, and sprains</li>
-            </ul>
+            <p className="text-muted-foreground leading-relaxed mt-4">
+              Asthiamrit is ideal for people suffering from joint pain,
+              arthritis, back pain, muscle stiffness, and age-related discomfort
+              — helping you stay active, healthy, and pain-free naturally.
+            </p>
           </div>
         </TabsContent>
 
-        {/* Usage */}
-        <TabsContent value="usage" className="mt-6">
+        {/* How to use */}
+        {/* <TabsContent value="usage" className="mt-6">
           <div className="space-y-6">
             <h3 className="text-xl font-semibold text-herbal-dark">
               Six Easy Steps to Use
@@ -75,8 +72,8 @@ export const ProductTabs = () => {
               <div className="space-y-4">
                 {[
                   "Clean the area where you want to apply the oil.",
-                  "Take a small amount (about 3 ML) of oil on your palm.",
-                  "Apply the oil on the affected joints area.",
+                  "Take around 3-5 mL of Asthiamrit ayurvedic oil on your palm.",
+                  "Apply on the affected joint and massage gently with small circular motions of your palm for upto 7 minutes.",
                 ].map((text, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <div className="bg-herbal-green text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
@@ -93,7 +90,7 @@ export const ProductTabs = () => {
               </div>
               <div className="space-y-4">
                 {[
-                  "Massage thoroughly with gentle circular palm motions.",
+                  "Allow the oil to absorb completely.",
                   "Allow the oil to absorb completely.",
                   "Wipe with wet cloth and apply coconut oil for best results.",
                 ].map((text, i) => (
@@ -112,9 +109,28 @@ export const ProductTabs = () => {
               </div>
             </div>
           </div>
+        </TabsContent> */}
+
+        <TabsContent value="usage" className="mt-6">
+          <div className="space-y-4">
+            <ul className="space-y-3">
+              {[
+                "Take around 3-5 mL of Asthiamrit ayurvedic oil on your palm.",
+                "Apply on the affected joint and massage gently with small circular motions of your palm for upto 7 minutes.",
+                "Allow the oil to absorb completely.",
+                "After the massage, wipe the area with a wet cloth and apply either a lotion of your preference or coconut oil over the area.",
+                "For long-term relief from joint pain, use for 2 months.",
+              ].map((benefit, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <div className="bg-herbal-green w-2 h-2 rounded-full mt-2"></div>
+                  <span className="text-muted-foreground">{benefit}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </TabsContent>
 
-        {/* Benefits */}
+        {/* why choose Asthiamrit */}
         <TabsContent value="benefits" className="mt-6">
           <div className="space-y-4">
             <ul className="space-y-3">
@@ -134,8 +150,8 @@ export const ProductTabs = () => {
           </div>
         </TabsContent>
 
-        {/* Reviews */}
-        <TabsContent value="reviews" className="mt-6">
+        {/* Benefits */}
+        {/* <TabsContent value="reviews" className="mt-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
@@ -169,6 +185,24 @@ export const ProductTabs = () => {
                 <p className="text-sm text-muted-foreground">{item.desc}</p>
               </div>
             ))}
+          </div>
+        </TabsContent> */}
+        <TabsContent value="reviews" className="mt-6">
+          <div className="space-y-4">
+            <ul className="space-y-3">
+              {[
+                "Powerful combination of many potent ayurvedic herbs",
+                "Relieves pain and reduces inflammation in joints, muscles and tendons",
+                "Best joint pain oil to ease muscle stiffness and persistent body aches",
+                "Has no side effects",
+                "Rigorously tested to ensure premium quality",
+              ].map((benefit, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <div className="bg-herbal-green w-2 h-2 rounded-full mt-2"></div>
+                  <span className="text-muted-foreground">{benefit}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </TabsContent>
       </Tabs>

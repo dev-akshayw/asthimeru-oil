@@ -56,10 +56,6 @@ export default function Home() {
         <UsageStepsSection />
       </section>
 
-      <section className="trust-section" aria-labelledby="trust-heading">
-        <TrustBadges />
-      </section>
-
       <Footer />
     </>
   );
