@@ -1,9 +1,6 @@
 "use client";
 import { Star, Flame, Eye } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
-import picture1 from "../assets/Picture1.png";
-import benefitsBackPain from "../assets/benefits-back-pain.jpg";
 
 export const ProductInfo = () => {
   return (
@@ -81,7 +78,7 @@ export const ProductInfo = () => {
       {/* Quantity selector and buy button */}
       <div className="flex items-center gap-4">
         <Link
-          href="/buy"
+          href=""
           className="bg-gradient-herbal hover:opacity-90 font-semibold text-white px-5 py-2 rounded-md transition"
         >
           BUY Now
@@ -96,12 +93,12 @@ export const ProductInfo = () => {
       </div>
       <div className="grid grid-cols-4 gap-4">
         <div>
-          <Image
-            src={picture1.src}
-            width={75}
-            height={75}
-            alt="GMP Certified"
-          />
+          {/*<Image*/}
+          {/*  src={picture1.src}*/}
+          {/*  width={75}*/}
+          {/*  height={75}*/}
+          {/*  alt="GMP Certified"*/}
+          {/*/>*/}
         </div>
       </div>
     </div>
