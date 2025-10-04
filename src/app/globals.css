@@ -14,7 +14,8 @@
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   /* --muted-foreground: oklch(0.556 0 0); */
-  --muted-foreground: 215.4 16.3% 46.9%;
+  /* --muted-foreground: 215.4 16.3% 46.9%; */
+
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
@@ -51,7 +52,7 @@
   --background: oklch(1 0 0);
   /* --foreground: oklch(0.145 0 0); */
   /* --foreground: 0 0% 95%; */
-  --foreground: 220 8.9% 46.1%;
+  --foreground: rgb(34 37 41);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -225,5 +226,17 @@
 @media (max-width: 767px) {
   .prod-tab-just {
     justify-content: unset !important;
+  }
+}
+.animate-marquee {
+  animation: moveLeft 25s linear infinite;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }

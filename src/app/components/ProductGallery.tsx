@@ -5,7 +5,6 @@ import AsthimeruProd1 from "../assets/Asthimeru-prod1.jpg";
 import AsthimeruProd2 from "../assets/Asthimeru-prod2.jpg";
 import AsthimeruProd3 from "../assets/Asthimeru-prod3.jpg";
 import AsthimeruProd4 from "../assets/Asthimeru-prod4.jpg";
-import AsthimeruProd5 from "../assets/Asthimeru-prod5.jpg";
 
 export const ProductGallery = () => {
   const [selectedImage, setSelectedImage] = useState(0);
@@ -14,7 +13,6 @@ export const ProductGallery = () => {
     AsthimeruProd2,
     AsthimeruProd3,
     AsthimeruProd4,
-    AsthimeruProd5,
   ];
   return (
     <div className="space-y-4">
@@ -28,7 +26,7 @@ export const ProductGallery = () => {
         />
       </div>
       {/* Thumbnail images */}
-      <div className="grid grid-cols-5 gap-2">
+      <div className="grid grid-cols-4 gap-2">
         {images.map((img, index) => (
           <button
             key={index}

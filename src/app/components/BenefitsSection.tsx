@@ -7,9 +7,9 @@ import benefitsShoulderPain from "../assets/benefits-shoulder-pain.jpg";
 export const BenefitsSection = () => {
   return (
     <section className="py-16 bg-background">
-      <div className=" max-w-[1400px] mx-auto px-4 md:px-6">
+      <div className=" max-w-[1200px] mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-herbal-dark mb-4">
+          <h2 className="text-4xl font-bold text-[#222529] mb-4">
             Transform Your Life with Asthiamrit
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">

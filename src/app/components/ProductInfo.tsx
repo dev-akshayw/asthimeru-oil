@@ -1,13 +1,15 @@
 "use client";
 import { Star, Flame, Eye } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
+import FreeOrder from "../assets/free-order.jpg";
 
 export const ProductInfo = () => {
   return (
-    <div className="space-y-6">
+    <div className="space-y-3">
       {/* Product title and rating */}
       <div>
-        <h1 className="text-3xl font-bold text-foreground mb-2">
+        <h1 className="text-3xl font-bold text-[#222529] mb-2">
           Asthiamrit ayurvedic treatment – Pain Relief Oil & Capsules for Total
           Joint Care
         </h1>
@@ -18,20 +20,10 @@ export const ProductInfo = () => {
         <div className="flex items-center gap-2">
           <div className="flex">
             {[...Array(5)].map((_, i) => (
-              <Star
-                key={i}
-                className="h-4 w-4 fill-herbal-gold text-herbal-gold"
-              />
+              <Star key={i} className="h-4 w-4 fill-[#ffd54d] text-[#ffd54d]" />
             ))}
           </div>
           <span className="text-sm text-muted-foreground">(50 Reviews)</span>
-        </div>
-      </div>
-
-      {/* Product variant */}
-      <div>
-        <div className="bg-herbal-cream text-herbal-dark font-medium w-fit py-[2px] px-2 rounded-full width-fit">
-          120ML (2) + 2 MONTHS CAPSULE FREE
         </div>
       </div>
 
@@ -83,22 +75,21 @@ export const ProductInfo = () => {
         >
           BUY Now
         </Link>
+        <div className="bg-herbal-cream py-2 px-4 rounded-lg">
+          <p className="text-herbal-dark font-medium text-center">
+            🚚 FREE SHIPPING, DELIVERY WITHIN 5-6 DAYS
+          </p>
+        </div>
       </div>
 
-      {/* Free shipping banner */}
-      <div className="bg-herbal-cream p-4 rounded-lg">
-        <p className="text-herbal-dark font-medium text-center">
-          🚚 FREE SHIPPING, DELIVERY WITHIN 5-6 DAYS
-        </p>
-      </div>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="">
         <div>
-          {/*<Image*/}
-          {/*  src={picture1.src}*/}
-          {/*  width={75}*/}
-          {/*  height={75}*/}
-          {/*  alt="GMP Certified"*/}
-          {/*/>*/}
+          <Image
+            src={FreeOrder.src}
+            width={180}
+            height={180}
+            alt="GMP Certified"
+          />
         </div>
       </div>
     </div>

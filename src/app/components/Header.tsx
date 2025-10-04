@@ -12,27 +12,28 @@ export default function Header() {
   return (
     <>
       {/* Top promotional bar */}
-      <div
-        className="px-4 bg-gradient-herbal text-white text-center py-2 text-sm font-medium"
-        role="banner"
-      >
-        GET A FREE EXPERT CONSULTATION
+      <div className="py-2 px-4 marquee overflow-hidden bg-[#1a7554] text-white whitespace-nowrap">
+        <span className="inline-block pl-[100%] animate-marquee text-[16px] font-medium ">
+          GET A FREE EXPERT CONSULTATION{" "}
+        </span>
       </div>
 
       <header className="w-full shadow">
         {/* Top Bar */}
-        <div className="bg-herbal-green text-white">
-          <div className="max-w-[1400px] mx-auto flex justify-between items-center px-4 md:px-6 py-4">
+        <div className="text-dark-700 ">
+          <div className="max-w-[1200px] mx-auto flex justify-between items-center px-4 md:px-6 py-4 md:pb-0">
             {/* Logo & Tagline */}
             <div className="flex items-center space-x-2">
-              <Image
-                src={AsthiamritLogo}
-                alt="Asthiamrit Logo"
-                width={120}
-                height={120}
-                className="rounded-full bg-transparent p-1"
-                priority
-              />
+              <Link href="/">
+                <Image
+                  src={AsthiamritLogo}
+                  alt="Asthiamrit Logo"
+                  width={220}
+                  height={100}
+                  className="rounded-full bg-transparent"
+                  priority
+                />
+              </Link>
             </div>
 
             {/* Contact + Hamburger */}
@@ -44,10 +45,10 @@ export default function Header() {
 
               {/* Hamburger Icon (Mobile) */}
               <button
-                className="md:hidden p-2 text-white"
+                className="md:hidden pb-2 text-dark"
                 onClick={() => setMenuOpen(!menuOpen)}
               >
-                {menuOpen ? <X size={24} /> : <Menu size={24} />}
+                {menuOpen ? <X size={28} /> : <Menu size={28} />}
               </button>
             </div>
           </div>
@@ -55,7 +56,7 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:block bg-white">
-          <div className="max-w-[1400px] mx-auto flex justify-between items-center px-4 md:px-6 py-3">
+          <div className="max-w-[1200px] mx-auto flex justify-between items-center px-4 md:px-6 py-3">
             <ul className="flex space-x-8 text-gray-700 font-medium">
               <li>
                 <Link href="/" className="hover:text-[#1a7554]">

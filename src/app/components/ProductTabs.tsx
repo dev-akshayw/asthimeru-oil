@@ -1,11 +1,11 @@
 "use client";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import Image from "next/image";
+// import Image from "next/image";
 
-import backPainIcon from "../assets/back-pain-icon.jpg";
-import kneePainIcon from "../assets/knee-pain-icon.jpg";
-import shoulderPainIcon from "../assets/shoulder-pain-icon.jpg";
+// import backPainIcon from "../assets/back-pain-icon.jpg";
+// import kneePainIcon from "../assets/knee-pain-icon.jpg";
+// import shoulderPainIcon from "../assets/shoulder-pain-icon.jpg";
 
 export const ProductTabs = () => {
   return (
