@@ -1,6 +1,4 @@
 import Header from "./components/Header";
-import herbalBanner from "./assets/herbal-banner.jpg";
-import Image from "next/image";
 import { ProductGallery } from "./components/ProductGallery";
 import { ProductInfo } from "./components/ProductInfo";
 import { ProductTabs } from "./components/ProductTabs";
