@@ -58,7 +58,7 @@ export const UsageStepsSection = () => {
 
   return (
     <section className="md:py-16 bg-herbal-cream/30">
-      <div className=" max-w-[1400px] mx-auto px-4 md:px-6">
+      <div className=" max-w-[1200px] mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-herbal-dark mb-4">
             Six Easy Steps to Use Asthiamrit Oil

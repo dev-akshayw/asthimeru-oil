@@ -22,6 +22,9 @@ module.exports = {
         },
       },
     },
+    fontFamily: {
+      roboto: ["var(--font-roboto)", "sans-serif"],
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };

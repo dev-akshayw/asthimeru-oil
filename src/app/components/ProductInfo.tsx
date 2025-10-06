@@ -9,11 +9,11 @@ export const ProductInfo = () => {
     <div className="space-y-3">
       {/* Product title and rating */}
       <div>
-        <h1 className="text-3xl font-bold text-[#222529] mb-2">
+        <h1 className="text-3xl font-bold head-color mb-2">
           Asthiamrit ayurvedic treatment – Pain Relief Oil & Capsules for Total
           Joint Care
         </h1>
-        <p className="text-muted-foreground mb-3">
+        <p className="text-color mb-3 text-color">
           Relieves Knee Pain | Shoulder Pain And Back Pain | Arthritis | Muscle
           Soreness
         </p>
@@ -23,15 +23,13 @@ export const ProductInfo = () => {
               <Star key={i} className="h-4 w-4 fill-[#ffd54d] text-[#ffd54d]" />
             ))}
           </div>
-          <span className="text-sm text-muted-foreground">(50 Reviews)</span>
+          <span className="text-sm text-color text-color">(50 Reviews)</span>
         </div>
       </div>
 
       {/* Pricing */}
       <div className="flex items-center gap-4">
-        <span className="text-sm text-muted-foreground line-through">
-          ₹3,499.00
-        </span>
+        <span className="text-sm text-color line-through">₹3,499.00</span>
         <span className="text-3xl font-bold text-herbal-green">₹2,499.00</span>
         <div className="bg-gradient-gold text-herbal-dark font-bold py-[2px] px-2 rounded-full w-fit">
           Flat 28% OFF
@@ -39,12 +37,12 @@ export const ProductInfo = () => {
       </div>
 
       {/* Product description */}
-      <p className="text-muted-foreground leading-relaxed">
+      <p className="text-color leading-relaxed ">
         Experience long-lasting relief with our two month Dual-Action Ayurvedic
         Treatment. A powerful combination of therapeutic oil and healing
         capsules.
       </p>
-      <ul className="list-disc pl-5 text-muted-foreground">
+      <ul className="list-disc pl-5 text-color">
         <li>100% Natural Ingredients</li>
         <li>Doctor-Formulated</li>
         <li>GMP Certified</li>
@@ -56,14 +54,12 @@ export const ProductInfo = () => {
         <div className="flex items-center gap-3 text-sm">
           <Flame className="h-4 w-4 text-orange-500" />
           <span className="font-semibold text-orange-600">85</span>
-          <span className="text-muted-foreground">sold in the last 1 hour</span>
+          <span className="text-color">sold in the last 1 hour</span>
         </div>
         <div className="flex items-center gap-3 text-sm">
           <Eye className="h-4 w-4 text-blue-500" />
           <span className="font-semibold text-blue-600">38</span>
-          <span className="text-muted-foreground">
-            People are viewing this right now
-          </span>
+          <span className="text-color">People are viewing this right now</span>
         </div>
       </div>
 

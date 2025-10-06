@@ -40,7 +40,9 @@ export default function Header() {
             <div className="flex items-center space-x-4">
               <div className="hidden md:flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span className="font-medium">+91 975 2075 917</span>
+                <a href="tel:+919752075917" className="font-medium">
+                  +91 975 2075 917
+                </a>
               </div>
 
               {/* Hamburger Icon (Mobile) */}

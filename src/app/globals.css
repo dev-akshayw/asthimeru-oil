@@ -240,3 +240,9 @@
     transform: translateX(-100%);
   }
 }
+.head-color {
+  color: #222529;
+}
+.text-color {
+  color: #4a5565;
+}

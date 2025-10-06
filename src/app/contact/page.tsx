@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <div className="max-w-[1400px] mx-auto px-4 md:px-6 md:py-20 py-12">
+      <div className="max-w-[1200px] mx-auto px-4 md:px-6 md:py-20 py-12">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-herbal-dark mb-4">
             Contact Us

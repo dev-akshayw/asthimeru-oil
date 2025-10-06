@@ -41,20 +41,20 @@ export const ProductTabs = () => {
         {/* Description */}
         <TabsContent value="description" className="mt-6 space-y-4">
           <div className="prose max-w-none">
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-color leading-relaxed">
               Asthiamrit – Ayurvedic Oil & Capsules for Complete Joint Care
               Experience the power of ancient Ayurvedic wisdom with Asthiamrit,
               a premium herbal formulation designed to relieve pain, reduce
               inflammation, and strengthen bones and joints.
             </p>
-            <p className="text-muted-foreground leading-relaxed mt-4">
+            <p className="text-color leading-relaxed mt-4">
               Our Ayurvedic oil penetrates deep into muscles and joints,
               improving blood circulation, easing stiffness, and promoting
               faster recovery. The capsules work from within to nourish
               cartilage, support bone health, and maintain long-term joint
               flexibility.
             </p>
-            <p className="text-muted-foreground leading-relaxed mt-4">
+            <p className="text-color leading-relaxed mt-4">
               Asthiamrit is ideal for people suffering from joint pain,
               arthritis, back pain, muscle stiffness, and age-related discomfort
               — helping you stay active, healthy, and pain-free naturally.
@@ -83,7 +83,7 @@ export const ProductTabs = () => {
                       <h4 className="font-semibold text-herbal-dark">
                         {["First", "Second", "Third"][i]} Step
                       </h4>
-                      <p className="text-muted-foreground">{text}</p>
+                      <p className="text-color">{text}</p>
                     </div>
                   </div>
                 ))}
@@ -102,7 +102,7 @@ export const ProductTabs = () => {
                       <h4 className="font-semibold text-herbal-dark">
                         {["Fourth", "Fifth", "Sixth"][i]} Step
                       </h4>
-                      <p className="text-muted-foreground">{text}</p>
+                      <p className="text-color">{text}</p>
                     </div>
                   </div>
                 ))}
@@ -123,7 +123,7 @@ export const ProductTabs = () => {
               ].map((benefit, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <div className="bg-herbal-green w-2 h-2 rounded-full mt-2"></div>
-                  <span className="text-muted-foreground">{benefit}</span>
+                  <span className="text-color">{benefit}</span>
                 </li>
               ))}
             </ul>
@@ -143,7 +143,7 @@ export const ProductTabs = () => {
               ].map((benefit, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <div className="bg-herbal-green w-2 h-2 rounded-full mt-2"></div>
-                  <span className="text-muted-foreground">{benefit}</span>
+                  <span className="text-color">{benefit}</span>
                 </li>
               ))}
             </ul>
@@ -182,7 +182,7 @@ export const ProductTabs = () => {
                 <h3 className="text-lg font-semibold text-herbal-dark">
                   {item.title}
                 </h3>
-                <p className="text-sm text-muted-foreground">{item.desc}</p>
+                <p className="text-sm text-color">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -199,7 +199,7 @@ export const ProductTabs = () => {
               ].map((benefit, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <div className="bg-herbal-green w-2 h-2 rounded-full mt-2"></div>
-                  <span className="text-muted-foreground">{benefit}</span>
+                  <span className="text-color">{benefit}</span>
                 </li>
               ))}
             </ul>

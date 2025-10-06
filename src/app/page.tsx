@@ -5,7 +5,6 @@ import { ProductGallery } from "./components/ProductGallery";
 import { ProductInfo } from "./components/ProductInfo";
 import { ProductTabs } from "./components/ProductTabs";
 import { BenefitsSection } from "./components/BenefitsSection";
-import { UsageStepsSection } from "./components/UsageStepsSection";
 // import { TrustBadges } from "./components/TrustBadges";
 import { Footer } from "./components/Footer";
 

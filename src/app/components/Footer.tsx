@@ -2,18 +2,27 @@
 
 import Link from "next/link";
 import { MapPin, Phone, Mail } from "lucide-react";
+import AsthiamritLogo from "../assets/asthiamrit_logo.png";
+import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <footer className="bg-herbal-dark text-white">
-      <div className="max-w-[1400px] mx-auto px-4 md:px-6 py-12">
+    <footer className="text-color border-t border-gray-200 ">
+      <div className="max-w-[1200px] mx-auto px-4 md:px-6 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold text-herbal-gold mb-4">
-              Asthiamrit
-            </h3>
-            <p className="text-white/80 md:mb-6 leading-relaxed lg:pr-16 xl:pr-24">
+            <Link href="/">
+              <Image
+                src={AsthiamritLogo}
+                alt="Asthiamrit Logo"
+                width={220}
+                height={100}
+                className="rounded-full bg-transparent mb-6"
+                priority
+              />
+            </Link>
+            <p className="text-colormd:mb-6 leading-relaxed lg:pr-16 xl:pr-24">
               Experience the power of Ayurveda with India&#39;s premium pain
               relief oil. Natural healing for muscle and joint pain. Crafted
               with time-tested herbal ingredients following ancient Ayurvedic
@@ -27,14 +36,14 @@ export const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Quick Links */}
             <div>
-              <h4 className="text-lg font-semibold text-herbal-gold mb-4">
+              <h4 className="text-lg font-semibold text-color mb-4">
                 Quick Links
               </h4>
               <ul className="space-y-3">
                 <li>
                   <Link
                     href="/"
-                    className="text-white/80 hover:text-herbal-gold transition-colors"
+                    className="text-colorhover:text-color transition-colors"
                   >
                     Home
                   </Link>
@@ -42,7 +51,7 @@ export const Footer = () => {
                 <li>
                   <Link
                     href="/about"
-                    className="text-white/80 hover:text-herbal-gold transition-colors"
+                    className="text-colorhover:text-color transition-colors"
                   >
                     About Us
                   </Link>
@@ -50,7 +59,7 @@ export const Footer = () => {
                 <li>
                   <Link
                     href="/contact"
-                    className="text-white/80 hover:text-herbal-gold transition-colors"
+                    className="text-colorhover:text-color transition-colors"
                   >
                     Contact
                   </Link>
@@ -58,7 +67,7 @@ export const Footer = () => {
                 <li>
                   <Link
                     href="/faq"
-                    className="text-white/80 hover:text-herbal-gold transition-colors"
+                    className="text-colorhover:text-color transition-colors"
                   >
                     FAQ
                   </Link>
@@ -68,32 +77,32 @@ export const Footer = () => {
 
             {/* Contact Info */}
             <div>
-              <h4 className="text-lg font-semibold text-herbal-gold mb-4">
+              <h4 className="text-lg font-semibold text-color mb-4">
                 Contact Info
               </h4>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <MapPin className="w-5 h-5 text-herbal-gold mt-1 flex-shrink-0" />
-                  <div className="text-white/80">
+                  <MapPin className="w-5 h-5 text-color mt-1 flex-shrink-0" />
+                  <div className="text-color">
                     <p>123 Herbal Street</p>
                     <p>Ayurveda District</p>
                     <p>New Delhi, India - 110001</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Phone className="w-5 h-5 text-herbal-gold flex-shrink-0" />
+                  <Phone className="w-5 h-5 text-color flex-shrink-0" />
                   <a
-                    href="tel:+919876543210"
-                    className="text-white/80 hover:text-herbal-gold transition-colors"
+                    href="tel:+919752075917"
+                    className="text-colorhover:text-color transition-colors"
                   >
-                    +91 98765 43210
+                    +91 975 2075 917
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Mail className="w-5 h-5 text-herbal-gold flex-shrink-0" />
+                  <Mail className="w-5 h-5 text-color flex-shrink-0" />
                   <a
                     href="mailto:info@asthiamrit.com"
-                    className="text-white/80 hover:text-herbal-gold transition-colors"
+                    className="text-colorhover:text-color transition-colors"
                   >
                     info@asthiamrit.com
                   </a>
@@ -104,33 +113,33 @@ export const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-white/20 mt-8 pt-8">
+        <div className="border-t border-gray-200 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-white/60 mb-4 md:mb-0">
+            <div className="text-colormb-4 md:mb-0">
               <p>&copy; 2025 Asthiamrit. All rights reserved.</p>
             </div>
             <div className="flex space-x-6 text-sm">
               <Link
                 href="#"
-                className="text-white/60 hover:text-herbal-gold transition-colors"
+                className="text-colorhover:text-color transition-colors"
               >
                 Privacy Policy
               </Link>
               <Link
                 href="#"
-                className="text-white/60 hover:text-herbal-gold transition-colors"
+                className="text-colorhover:text-color transition-colors"
               >
                 Terms of Service
               </Link>
               <Link
                 href="#"
-                className="text-white/60 hover:text-herbal-gold transition-colors"
+                className="text-colorhover:text-color transition-colors"
               >
                 Shipping Policy
               </Link>
               <Link
                 href="#"
-                className="text-white/60 hover:text-herbal-gold transition-colors"
+                className="text-colorhover:text-color transition-colors"
               >
                 Return Policy
               </Link>
@@ -139,31 +148,31 @@ export const Footer = () => {
         </div>
 
         {/* Trust Badges */}
-        <div className="mt-8 pt-8 border-t border-white/20">
+        <div className="mt-8 pt-8 border-t border-gray-200">
           <div className="flex flex-wrap justify-center items-center gap-8">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-herbal-gold rounded-full flex items-center justify-center">
                 <span className="text-herbal-dark font-bold text-sm">✓</span>
               </div>
-              <span className="text-white/80 text-sm">100% Safe</span>
+              <span className="text-colortext-sm">100% Safe</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-herbal-gold rounded-full flex items-center justify-center">
                 <span className="text-herbal-dark font-bold text-sm">✓</span>
               </div>
-              <span className="text-white/80 text-sm">AYUSH Certified</span>
+              <span className="text-colortext-sm">AYUSH Certified</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-herbal-gold rounded-full flex items-center justify-center">
                 <span className="text-herbal-dark font-bold text-sm">✓</span>
               </div>
-              <span className="text-white/80 text-sm">Quality Approved</span>
+              <span className="text-colortext-sm">Quality Approved</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-herbal-gold rounded-full flex items-center justify-center">
                 <span className="text-herbal-dark font-bold text-sm">✓</span>
               </div>
-              <span className="text-white/80 text-sm">Authentic</span>
+              <span className="text-colortext-sm">Authentic</span>
             </div>
           </div>
         </div>

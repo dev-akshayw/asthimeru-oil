@@ -8,7 +8,7 @@ const About = () => {
       <Header />
       {/* Hero Section */}
       <div className="bg-gradient-herbal text-white py-16">
-        <div className="max-w-[1400px] mx-auto px-4 md:px-6 text-center">
+        <div className="max-w-[1200px] mx-auto px-4 md:px-6 text-center">
           <h1 className="text-5xl font-bold mb-6">About Asthiamrit</h1>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
             Rooted in ancient Ayurvedic wisdom, Asthiamrit brings you the power
@@ -18,7 +18,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="max-w-[1400px] mx-auto px-4 md:px-6 py-16">
+      <div className="max-w-[1200px] mx-auto px-4 md:px-6 py-16">
         {/* Our Story */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-herbal-dark mb-8 text-center">
