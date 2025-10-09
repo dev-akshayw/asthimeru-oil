@@ -120,7 +120,7 @@ export const Footer = () => {
             </div>
             <div className="flex space-x-6 text-sm">
               <Link
-                href="#"
+                href="/privacy-policy"
                 className="text-colorhover:text-color transition-colors"
               >
                 Privacy Policy

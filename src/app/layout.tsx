@@ -49,6 +49,9 @@ export const metadata: Metadata = {
     "Asthiamrit Herbal Oil - Premium Ayurvedic Pain Relief Oil | Natural Joint & Muscle Pain Treatment",
   description:
     "Asthiamrit Herbal Oil - India's #1 Ayurvedic pain relief oil with 20+ natural herbs. Fast relief from arthritis, back pain, knee pain & muscle soreness. AYUSH certified. Free shipping.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
