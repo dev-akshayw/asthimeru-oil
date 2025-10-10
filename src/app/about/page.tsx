@@ -1,13 +1,13 @@
 import { Footer } from "../components/Footer";
 import Header from "../components/Header";
-import { CheckCircle, Leaf, Award, Users } from "lucide-react";
+import { CheckCircle, Leaf, Award, Users, Trophy } from "lucide-react";
 
 const About = () => {
   return (
     <>
       <Header />
       {/* Hero Section */}
-      <div className="bg-gradient-herbal text-white py-16">
+      {/* <div className="bg-gradient-herbal text-white py-16">
         <div className="max-w-[1200px] mx-auto px-4 md:px-6 text-center">
           <h1 className="text-5xl font-bold mb-6">About Asthiamrit</h1>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
@@ -16,36 +16,54 @@ const About = () => {
             Experience the real extract of herbs.
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="max-w-[1200px] mx-auto px-4 md:px-6 py-16">
+      <div className="max-w-[1200px] mx-auto px-5 md:px-6 py-12 md:py-16">
         {/* Our Story */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-herbal-dark mb-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold head-color mb-6 md:mb-8 text-center">
             Our Story
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                Asthiamrit was born from a deep understanding of the healing
-                power of Ayurveda and a commitment to bringing natural pain
-                relief to people suffering from joint and muscle discomfort. Our
-                journey began with extensive research into ancient Ayurvedic
-                texts and traditional healing practices.
+              <p className="text-color md:text-lg leading-relaxed mb-2 md:mb-3">
+                Do you or your loved ones struggle with joint pain or stiffness
+                every day? Do mornings start with aches and discomfort in the
+                joints or muscles? If so, Asthimeru Herbal oil is here to help!
+                This powerful massage oil provides a warm, soothing feeling as
+                soon as it’s applied, offering quick relief from pain.
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                After years of careful formulation and testing, we developed
-                Asthiamrit Herbal Oil - a unique blend of 20+ pure herbs that
-                work synergistically to provide fast, effective, and natural
-                pain relief. Our oil is crafted using traditional methods while
-                meeting modern quality standards.
+              <p className="text-color md:text-lg leading-relaxed mb-2 md:mb-3">
+                {" "}
+                It reduces swelling, loosens stiff joints, and improves blood
+                flow to the area, helping you feel better faster. What makes
+                Asthimeru Herbal oil special is its unique formula. zinda
+                jadi-booties are added to it which continuously release their
+                essence that allows the oil to go deeper into your muscles and
+                joints. This helps reduce pain and adds a gentle warmth to relax
+                the area.{" "}
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Today, thousands of people across India trust Asthiamrit for
-                their pain relief needs, and we continue our mission to help
-                people live pain-free, active lives through the power of nature.
+              <p className="text-color md:text-lg leading-relaxed mb-2 md:mb-3">
+                {" "}
+                Asthimeru Herbal oil is perfect for many types of pain, like
+                knee pain, back pain, frozen shoulder, neck stiffness, and even
+                aches from poor posture. Use it daily for two months for the
+                best results and long-lasting relief. Switch to Asthimeru Herbal
+                oil, the trusted Ayurvedic solution for joint pain, and enjoy a
+                life with less pain and more comfort!
               </p>
             </div>
+
+            {/* <div className="grid grid-cols-2 gap-6">
+              <div className="border-2 border-herbal-green/10 hover:border-herbal-green/30 hover:shadow-lg transition-all duration-300 hover-scale">
+                <div className="p-6 text-center">
+                  <div className="bg-gradient-to-br from-herbal-green to-herbal-light p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                    <Users className="w-8 h-8 text-herbal-green" />
+                  </div>
+                </div>
+              </div>
+            </div> */}
+
             <div className="bg-herbal-cream p-8 rounded-lg">
               <div className="grid grid-cols-2 gap-6 text-center">
                 <div>
@@ -53,30 +71,30 @@ const About = () => {
                     <Users className="w-8 h-8 text-herbal-green" />
                   </div>
                   <h3 className="text-2xl font-bold text-herbal-dark">
-                    10,000+
+                    50,000+
                   </h3>
                   <p className="text-muted-foreground">Happy Customers</p>
                 </div>
                 <div>
                   <div className="bg-herbal-green10 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                    <Leaf className="w-8 h-8 text-herbal-green" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-herbal-dark">20+</h3>
-                  <p className="text-muted-foreground">Natural Herbs</p>
-                </div>
-                <div>
-                  <div className="bg-herbal-green10 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                    <Award className="w-8 h-8 text-herbal-green" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-herbal-dark">100%</h3>
-                  <p className="text-muted-foreground">AYUSH Certified</p>
-                </div>
-                <div>
-                  <div className="bg-herbal-green10 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                     <CheckCircle className="w-8 h-8 text-herbal-green" />
                   </div>
-                  <h3 className="text-2xl font-bold text-herbal-dark">5+</h3>
-                  <p className="text-muted-foreground">Years Research</p>
+                  <h3 className="text-2xl font-bold text-herbal-dark">98%</h3>
+                  <p className="text-muted-foreground">Satisfaction Rate</p>
+                </div>
+                <div>
+                  <div className="bg-herbal-green10 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                    <Trophy className="w-8 h-8 text-herbal-green" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-herbal-dark">15+</h3>
+                  <p className="text-muted-foreground">Year’s Experience</p>
+                </div>
+                <div>
+                  <div className="bg-herbal-green10 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                    <Leaf className="w-8 h-8 text-herbal-green" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-herbal-dark">100%</h3>
+                  <p className="text-muted-foreground">Natural Products</p>
                 </div>
               </div>
             </div>
@@ -165,46 +183,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* Quality Assurance */}
-      <div className="bg-herbal-cream p-8 rounded-lg">
-        <h2 className="text-3xl font-bold text-herbal-dark mb-6 text-center">
-          Quality Assurance
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="text-center flex flex-col justify-center items-center">
-            <div className="mb-2 bg-gradient-gold text-herbal-dark font-medium text-sm py-[2px] px-2 rounded-full w-fit">
-              Quality
-            </div>
-            <p className="text-center text-sm text-muted-foreground">
-              Rigorous quality control at every stage of production
-            </p>
-          </div>
-          <div className="text-center flex flex-col justify-center items-center">
-            <div className="mb-2 bg-gradient-gold text-herbal-dark font-medium text-sm py-[2px] px-2 rounded-full w-fit">
-              Purity
-            </div>
-            <p className="text-center text-sm text-muted-foreground">
-              100% pure herbs with no synthetic additives
-            </p>
-          </div>
-          <div className="text-center flex flex-col justify-center items-center">
-            <div className="mb-2 bg-gradient-gold text-herbal-dark font-medium text-sm py-[2px] px-2 rounded-full w-fit">
-              Safety
-            </div>
-            <p className="text-center text-sm text-muted-foreground">
-              Tested for safety and efficacy by certified labs
-            </p>
-          </div>
-          <div className="flex flex-col justify-center items-center">
-            <div className="mb-2 bg-gradient-gold text-herbal-dark font-medium text-sm py-[2px] px-2 rounded-full w-fit">
-              Authenticity
-            </div>
-            <p className="text-center text-sm text-muted-foreground">
-              Traditional Ayurvedic formulation with modern standards
-            </p>
-          </div>
-        </div>
-      </div>
       <Footer />
     </>
   );

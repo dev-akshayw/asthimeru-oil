@@ -16,7 +16,7 @@ export const ProductGallery = () => {
   ];
   return (
     <div className="space-y-4">
-      <div className="aspect-square overflow-hidden rounded-lg border-2 border-herbal-light/20 bg-gradient-nature">
+      <div className="aspect-square overflow-hidden rounded-lg bg-gradient-nature cursor-pointer">
         <Image
           src={images[selectedImage].src}
           width={550}
@@ -31,7 +31,7 @@ export const ProductGallery = () => {
           <button
             key={index}
             onClick={() => setSelectedImage(index)}
-            className={`aspect-square overflow-hidden rounded-md border-2 transition-all duration-200 ${
+            className={`aspect-square cursor-pointer overflow-hidden rounded-md transition-all duration-200 ${
               selectedImage === index
                 ? "border-herbal-light shadow-lg"
                 : "border-herbal-light/20 hover:border-herbal-light/40"

@@ -47,14 +47,14 @@ export const ProductTabs = () => {
               a premium herbal formulation designed to relieve pain, reduce
               inflammation, and strengthen bones and joints.
             </p>
-            <p className="text-color leading-relaxed mt-4">
+            <p className="text-color leading-relaxed mt-2 md:mt-4">
               Our Ayurvedic oil penetrates deep into muscles and joints,
               improving blood circulation, easing stiffness, and promoting
               faster recovery. The capsules work from within to nourish
               cartilage, support bone health, and maintain long-term joint
               flexibility.
             </p>
-            <p className="text-color leading-relaxed mt-4">
+            <p className="text-color leading-relaxed mt-2 md:mt-4">
               Asthiamrit is ideal for people suffering from joint pain,
               arthritis, back pain, muscle stiffness, and age-related discomfort
               — helping you stay active, healthy, and pain-free naturally.

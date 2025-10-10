@@ -36,14 +36,14 @@ export const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Quick Links */}
             <div>
-              <h4 className="text-lg font-semibold text-color mb-4">
+              <h4 className="text-lg font-semibold head-color mb-4">
                 Quick Links
               </h4>
               <ul className="space-y-3">
                 <li>
                   <Link
                     href="/"
-                    className="text-colorhover:text-color transition-colors"
+                    className="text-color hover:text-[#1a7554!important] transition-colors "
                   >
                     Home
                   </Link>
@@ -51,7 +51,7 @@ export const Footer = () => {
                 <li>
                   <Link
                     href="/about"
-                    className="text-colorhover:text-color transition-colors"
+                    className="text-color hover:text-[#1a7554!important] transition-colors "
                   >
                     About Us
                   </Link>
@@ -59,7 +59,7 @@ export const Footer = () => {
                 <li>
                   <Link
                     href="/contact"
-                    className="text-colorhover:text-color transition-colors"
+                    className="text-color hover:text-[#1a7554!important] transition-colors "
                   >
                     Contact
                   </Link>
@@ -67,7 +67,7 @@ export const Footer = () => {
                 <li>
                   <Link
                     href="/faq"
-                    className="text-colorhover:text-color transition-colors"
+                    className="text-color hover:text-[#1a7554!important] transition-colors "
                   >
                     FAQ
                   </Link>
@@ -77,36 +77,32 @@ export const Footer = () => {
 
             {/* Contact Info */}
             <div>
-              <h4 className="text-lg font-semibold text-color mb-4">
+              <h4 className="text-lg font-semibold head-color mb-4">
                 Contact Info
               </h4>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <MapPin className="w-5 h-5 text-color mt-1 flex-shrink-0" />
+                  <MapPin className="w-5 h-5 text-[#1a7554] mt-1 flex-shrink-0" />
                   <div className="text-color">
                     <p>123 Herbal Street</p>
                     <p>Ayurveda District</p>
                     <p>New Delhi, India - 110001</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-3">
-                  <Phone className="w-5 h-5 text-color flex-shrink-0" />
-                  <a
-                    href="tel:+919752075917"
-                    className="text-colorhover:text-color transition-colors"
-                  >
-                    +91 975 2075 917
-                  </a>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Mail className="w-5 h-5 text-color flex-shrink-0" />
-                  <a
-                    href="mailto:info@asthiamrit.com"
-                    className="text-colorhover:text-color transition-colors"
-                  >
-                    info@asthiamrit.com
-                  </a>
-                </div>
+                <a
+                  href="tel:+919752075917"
+                  className="flex items-center gap-3 text-color hover:!text-[#1a7554] transition-colors"
+                >
+                  <Phone className="w-5 h-5 flex-shrink-0 text-[#1a7554]" />
+                  +91 975 2075 917
+                </a>
+                <a
+                  href="mailto:info@asthiamrit.com"
+                  className="flex items-center gap-3 text-color hover:!text-[#1a7554] transition-colors"
+                >
+                  <Mail className="w-5 h-5 flex-shrink-0 text-[#1a7554]" />
+                  info@asthiamrit.com
+                </a>
               </div>
             </div>
           </div>
@@ -114,32 +110,32 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 mt-8 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-colormb-4 md:mb-0">
+          <div className="flex flex-col md:flex-row gap-3 justify-between items-center">
+            <div className="text-colormb-4">
               <p>&copy; 2025 Asthiamrit. All rights reserved.</p>
             </div>
-            <div className="flex space-x-6 text-sm">
+            <div className="max-w-[280px] md:max-w-none  flex flex-wrap gap-2 justify-center md:flex-nowrap md:gap-4 md:justify-between text-sm">
               <Link
                 href="/privacy-policy"
-                className="text-colorhover:text-color transition-colors"
+                className="text-color hover:!text-[#1a7554] transition-colors"
               >
                 Privacy Policy
               </Link>
               <Link
-                href="#"
-                className="text-colorhover:text-color transition-colors"
+                href="/terms-and-conditions/"
+                className="text-color hover:!text-[#1a7554] transition-colors"
               >
-                Terms of Service
+                Terms and Conditions
               </Link>
               <Link
-                href="#"
-                className="text-colorhover:text-color transition-colors"
+                href="/shipping-policy"
+                className="text-color hover:!text-[#1a7554] transition-colors"
               >
                 Shipping Policy
               </Link>
               <Link
-                href="#"
-                className="text-colorhover:text-color transition-colors"
+                href="/return-policy"
+                className="text-color hover:!text-[#1a7554] transition-colors"
               >
                 Return Policy
               </Link>

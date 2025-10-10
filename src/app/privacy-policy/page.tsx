@@ -8,26 +8,26 @@ const PrivacyPolicy = () => {
       <main className="flex-1 bg-gray-50 border-t border-gray-200">
         <div className="container mx-auto px-4 md:px-6 md:py-16 py-12">
           <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-sm p-6 md:p-8">
-            <h1 className="md:text-4xl text-3xl font-bold text-gray-900 mb-6">
+            <h1 className="md:text-4xl text-3xl font-bold head-color mb-6">
               Privacy Policy
             </h1>
 
-            <div className="prose prose-lg max-w-none text-gray-700 space-y-3">
+            <div className="prose prose-lg max-w-none text-color space-y-3">
               <p>
-                We are <strong>asthimeru.com</strong>, an e-commerce website. In
-                this Privacy Policy, references to &quot;<strong>you</strong>
+                We are <strong>asthiamrit.com</strong>, an e-commerce website.
+                In this Privacy Policy, references to &quot;<strong>you</strong>
                 &quot; mean any person submitting data to us, our agent, or the
                 Site.
               </p>
 
               <p>
                 If you have any comments or suggestions, feel free to contact us
-                at our Indore address or via email at
+                at our Indore address or via email at&nbsp;
                 <a
-                  href="mailto:info@asthimeru.com"
-                  className="text-herbal-green hover:underline hover:decoration-herbal-green"
+                  href="mailto:info@asthiamrit.com"
+                  className="text-[#1a7554] hover:underline font-semibold"
                 >
-                  info@asthimeru.com
+                  info@asthiamrit.com
                 </a>
                 .
               </p>
@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
                 service purposes.
               </p>
 
-              <h2 className="text-2xl font-semibold text-gray-900 md:mt-8 mt-6 mb-4">
+              <h2 className="text-2xl font-semibold head-color md:mt-8 mt-6 mb-4">
                 What Data We Collect
               </h2>
               <p>
@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
                 third parties.
               </p>
 
-              <h2 className="text-2xl font-semibold text-gray-900 md:mt-8 mt-6 mb-4">
+              <h2 className="text-2xl font-semibold head-color md:mt-8 mt-6 mb-4">
                 Fraud Prevention & Security
               </h2>
               <p>
@@ -66,7 +66,7 @@ const PrivacyPolicy = () => {
                 policies. Any disputes will be handled by Indore courts.
               </p>
 
-              <h2 className="text-2xl font-semibold text-gray-900 md:mt-8 mt-6 mb-4">
+              <h2 className="text-2xl font-semibold head-color md:mt-8 mt-6 mb-4">
                 How We Use Your Data
               </h2>
               <p>We may use your information for:</p>
@@ -84,7 +84,7 @@ const PrivacyPolicy = () => {
               </ul>
               <p>You may opt-out of marketing communications at any time.</p>
 
-              <h2 className="text-2xl font-semibold text-gray-900 md:mt-8 mt-6 mb-4">
+              <h2 className="text-2xl font-semibold head-color md:mt-8 mt-6 mb-4">
                 Third Parties & Links
               </h2>
               <p>We may share your details with:</p>
@@ -100,7 +100,7 @@ const PrivacyPolicy = () => {
                 sold, data may be transferred to the new owner.
               </p>
 
-              <h2 className="text-2xl font-semibold text-gray-900 md:mt-8 mt-6 mb-4">
+              <h2 className="text-2xl font-semibold head-color md:mt-8 mt-6 mb-4">
                 Cookies
               </h2>
               <p>
@@ -122,7 +122,7 @@ const PrivacyPolicy = () => {
               </ul>
               <p>We use Google Analytics for website performance tracking.</p>
 
-              <h2 className="text-2xl font-semibold text-gray-900 md:mt-8 mt-6 mb-4">
+              <h2 className="text-2xl font-semibold head-color md:mt-8 mt-6 mb-4">
                 Security
               </h2>
               <p>We use advanced security measures to protect your data:</p>
@@ -137,7 +137,7 @@ const PrivacyPolicy = () => {
                 communication.
               </p>
 
-              <h2 className="text-2xl font-semibold text-gray-900 md:mt-8 mt-6 mb-4">
+              <h2 className="text-2xl font-semibold head-color md:mt-8 mt-6 mb-4">
                 Consent
               </h2>
               <p>

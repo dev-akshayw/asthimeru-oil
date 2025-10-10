@@ -9,7 +9,7 @@ export const ProductInfo = () => {
     <div className="space-y-3">
       {/* Product title and rating */}
       <div>
-        <h1 className="text-3xl font-bold head-color mb-2">
+        <h1 className="md:text-3xl text-2xl font-bold head-color mb-2">
           Asthiamrit ayurvedic treatment – Pain Relief Oil & Capsules for Total
           Joint Care
         </h1>
@@ -28,7 +28,7 @@ export const ProductInfo = () => {
       </div>
 
       {/* Pricing */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 flex-wrap">
         <span className="text-sm text-color line-through">₹3,499.00</span>
         <span className="text-3xl font-bold text-herbal-green">₹2,499.00</span>
         <div className="bg-gradient-gold text-herbal-dark font-bold py-[2px] px-2 rounded-full w-fit">
@@ -64,7 +64,7 @@ export const ProductInfo = () => {
       </div>
 
       {/* Quantity selector and buy button */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 flex-wrap">
         <Link
           href=""
           className="bg-gradient-herbal hover:opacity-90 font-semibold text-white px-5 py-2 rounded-md transition"

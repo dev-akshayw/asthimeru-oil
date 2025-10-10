@@ -11,8 +11,8 @@ export default function Home() {
     <>
       <Header />
 
-      <main className="max-w-[1200px] mx-auto px-4 md:px-6 py-12">
-        <section className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+      <main className="max-w-[1200px] mx-auto px-5 md:px-6 py-12">
+        <section className="grid grid-cols-1 lg:grid-cols-12 md:gap-16 gap-12">
           <div
             className="lg:col-span-6"
             role="img"
@@ -27,7 +27,7 @@ export default function Home() {
       </main>
 
       <section
-        className="product-details max-w-[1200px] mx-auto px-4 md:px-6 md:pt-12"
+        className="product-details max-w-[1200px] mx-auto px-5 md:px-6 md:pt-12"
         role="tabpanel"
       >
         <ProductTabs />
